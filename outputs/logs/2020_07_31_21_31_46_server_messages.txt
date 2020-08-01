@@ -1,0 +1,19 @@
+2020/07/31 21:31:46.104  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/07/31 21:31:46.104  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/07/31 21:31:46.104  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/07/31 21:31:46.114  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/07/31 21:31:46.124  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/07/31 21:31:46.124  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:31:46.125  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:31:46.203  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 21:31:46.203  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:4040
+2020/07/31 21:31:46.216  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:31:46.227  INFO: Killing thread for interface CUBEDESIGN-ET_INT
+2020/07/31 21:31:46.227  INFO: Stopped packet reading for CUBEDESIGN-ET_INT
+2020/07/31 21:31:46.227  INFO: Disconnected from interface CUBEDESIGN-ET_INT
+2020/07/31 21:31:46.233  INFO: Processing target definition in file '/home/carlos/cosmos-satcs/config/targets/CUBEDESIGN-ET/target.txt'
+2020/07/31 21:31:46.236  INFO: Processing target definition in file '/home/carlos/cosmos-satcs/config/targets/SYSTEM/target.txt'
+2020/07/31 21:31:46.238  INFO: Marshal load success: /home/carlos/cosmos-satcs/outputs/tmp/marshal_b1261cb8cc57a09bb51bdfd31a474f9d.bin
+2020/07/31 21:31:46.293  INFO: COSMOS Version: 4.4.2
+2020/07/31 21:31:46.293  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/07/31 21:31:46.294  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/targets/CUBEDESIGN-ET/cmd_tlm_server.txt

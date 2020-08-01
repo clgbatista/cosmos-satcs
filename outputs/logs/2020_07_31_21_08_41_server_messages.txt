@@ -1,0 +1,37 @@
+2020/07/31 21:08:40.741  INFO: Log File Closed : /home/carlos/cosmos-satcs/outputs/logs/2020_07_31_19_39_51_cmd.bin
+2020/07/31 21:08:40.741  INFO: Log File Closed : /home/carlos/cosmos-satcs/outputs/logs/2020_07_31_19_39_51_tlm.bin
+2020/07/31 21:08:40.841  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/07/31 21:08:40.842  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/07/31 21:08:40.842  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/07/31 21:08:40.923  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/07/31 21:08:40.933  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/07/31 21:08:40.933  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:08:40.933  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:08:41.004  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:08:41.015  INFO: Killing thread for interface CUBEDESIGN-ET_INT
+2020/07/31 21:08:41.015  INFO: Stopped packet reading for CUBEDESIGN-ET_INT
+2020/07/31 21:08:41.015  INFO: Disconnected from interface CUBEDESIGN-ET_INT
+2020/07/31 21:08:41.021  INFO: Processing target definition in file '/home/carlos/cosmos-satcs/config/targets/CUBEDESIGN-ET/target.txt'
+2020/07/31 21:08:41.068  INFO: Processing target definition in file '/home/carlos/cosmos-satcs/config/targets/SYSTEM/target.txt'
+2020/07/31 21:08:41.069  INFO: Marshal load success: /home/carlos/cosmos-satcs/outputs/tmp/marshal_b1261cb8cc57a09bb51bdfd31a474f9d.bin
+2020/07/31 21:08:41.070  INFO: COSMOS Version: 4.4.2
+2020/07/31 21:08:41.070  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/07/31 21:08:41.070  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/targets/CUBEDESIGN-ET/cmd_tlm_server.txt
+2020/07/31 21:08:41.172  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/07/31 21:08:41.172  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:08:41.172  INFO: Creating thread for interface CUBEDESIGN-ET_INT
+2020/07/31 21:08:41.230  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/07/31 21:08:41.230  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/07/31 21:08:41.231  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/07/31 21:08:41.231  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/07/31 21:08:41.231  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/07/31 21:08:41.231  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/07/31 21:08:41.231  INFO: Starting packet reading for CUBEDESIGN-ET_INT
+2020/07/31 21:08:41.231  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 21:08:41.231  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:4040
+2020/07/31 21:08:46.237  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 21:08:46.238  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:4040
+2020/07/31 21:08:51.242  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 21:08:51.243  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:4040
+2020/07/31 21:08:56.245  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 21:08:56.246  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:4040

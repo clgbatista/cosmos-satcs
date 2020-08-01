@@ -5,5 +5,8 @@
 # Please see the COSMOS Interface Configuration documentation
 
 # TM 4040 CMD 4041
-INTERFACE CUBEDESIGN-ET_INT tcpip_client_interface.rb localhost 4040 4041 10.0 nil BURST 4 0xDEADBEEF
+INTERFACE CUBEDESIGN-ET_INT tcpip_client_interface.rb localhost 4040 4040 10.0 nil BURST 4 0xDEADBEEF
+  TARGET CUBEDESIGN-ET
+
+INTERFACE CUBEDESIGN-ET_CMD tcpip_client_interface.rb localhost 4041 4041 10.0 nil BURST 4 0xDEADBEEF
   TARGET CUBEDESIGN-ET

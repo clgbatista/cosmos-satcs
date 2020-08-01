@@ -1,0 +1,29 @@
+2020/07/31 17:24:40.012  INFO: COSMOS Version: 4.4.2
+2020/07/31 17:24:40.012  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/07/31 17:24:40.139  INFO: Processing CmdTlmServer configuration in file: /home/carlos/cosmos-satcs/config/targets/CUBEDESIGN-ET/cmd_tlm_server.txt
+2020/07/31 17:24:40.140  INFO: Marshal file does not exist: /home/carlos/cosmos-satcs/outputs/tmp/marshal_b1261cb8cc57a09bb51bdfd31a474f9d.bin
+2020/07/31 17:24:40.270  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/07/31 17:24:40.271  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 17:24:40.272  INFO: Creating thread for interface CUBEDESIGN-ET_INT
+2020/07/31 17:24:40.279  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/07/31 17:24:40.279  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/07/31 17:24:40.280  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/07/31 17:24:40.313  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/07/31 17:24:40.313  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/07/31 17:24:40.313  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/07/31 17:24:40.313  INFO: Starting packet reading for CUBEDESIGN-ET_INT
+2020/07/31 17:24:40.313  INFO: Connecting to CUBEDESIGN-ET_INT...
+2020/07/31 17:24:40.313  ERROR: CUBEDESIGN-ET_INT Connection Failed: ECONNREFUSED : Connection refused - connect(2) for 127.0.0.1:8080
+2020/07/31 17:24:44.146  INFO: User disconnecting interface CUBEDESIGN-ET_INT
+2020/07/31 17:24:44.146  INFO: Killing thread for interface CUBEDESIGN-ET_INT
+2020/07/31 17:24:44.146  INFO: Stopped packet reading for CUBEDESIGN-ET_INT
+2020/07/31 17:24:44.146  INFO: Disconnected from interface CUBEDESIGN-ET_INT
+2020/07/31 17:24:46.770  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/07/31 17:24:46.771  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/07/31 17:24:46.771  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/07/31 17:24:46.832  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/07/31 17:24:46.842  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/07/31 17:24:46.842  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 17:24:46.842  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/07/31 17:24:46.914  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/07/31 17:24:46.924  INFO: Disconnected from interface CUBEDESIGN-ET_INT
